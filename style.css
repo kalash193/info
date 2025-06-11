@@ -1,0 +1,76 @@
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+p{
+font-family: Arial, Helvetica, sans-serif;
+}
+.box1{
+    padding: 1px;
+    margin: 1px;
+height: 1cm;
+
+background-color: aqua;
+}
+.box{
+    
+
+    border: 10px solid rgb(19, 20, 20); 
+height: 13.2cm;
+width: 10cm;
+    
+    display: flex;
+  justify-content: center;   /* Horizontal */
+  align-items: center;
+    
+}
+.box1{
+    display: flex;
+  justify-content: center;   /* Horizontal */
+  align-items: center;
+}
+body{
+    background-image:url(background.jpg) ;
+}
+.box3{
+    padding: 1px;
+    margin: 1px;
+    font-style: inherit;
+    
+    color:whitesmoke;
+     
+}
+  h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 20%;
+    text-indent: 40px;
+    color: whitesmoke;
+    }  
+    .box2{
+        border: 2px ;
+        width: 33cm;
+        height: 2cm;
+        text-indent: 4cm;
+        color: whitesmoke;
+    }
+    .box4{
+        
+    text-align: center;
+    color: whitesmoke;
+    }
+    .download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}
